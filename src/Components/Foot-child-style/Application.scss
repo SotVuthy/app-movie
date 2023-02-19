@@ -1,0 +1,70 @@
+.application {
+  margin: 4rem 8rem 4rem 8rem;
+  box-sizing: border-box;
+  background-color: #c8c7c5;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    .application-wrapper {
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/862/449/162/jack-reacher-star-wars-interstellar-movie-john-wick-wallpaper-preview.jpg');
+    padding: 2rem;
+    display: flex;
+    gap: 6rem;
+    letter-spacing: 1px;
+    justify-content: center;
+    align-items: center;
+    .Image-logo {
+      width: 200px;
+      height: 400px;
+    }
+    .application-list {
+        background-color: rgb(75, 65, 65);
+        padding: 15px;
+        border-radius: 25px;
+      display: inline-table;
+      box-shadow: rgba(151, 150, 150, 0.25) 0px 54px 55px,
+      rgba(248, 245, 245, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(254, 252, 252, 0.17) 0px 12px 13px, rgba(240, 237, 237, 0.09) 0px -3px 5px;
+      .info-heading {
+        padding: 8px;
+        color: rgb(255, 255, 255);
+      }
+      .app-txt {
+        padding: 6px;
+        margin-bottom: 5px;
+      }
+      .app-li {
+        margin-left: 40px;
+        list-style: disc;
+        margin-top: 5px;
+        color: rgb(237, 235, 235);
+      }
+      .a-download {
+        text-decoration: none;
+      }
+      .btn-download {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        font-size: 20px;
+        color: rgb(80, 81, 80);
+        background-color: rgb(140, 249, 226);
+        padding: 15px 35px 15px 35px;
+        margin-top: 1.5rem;
+        border: none;
+        margin-left: 15px;
+        cursor: pointer;
+        &:hover {
+          background-color: rgb(13, 197, 243);
+          color: rgb(115, 98, 98);
+          .download-text {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+

@@ -1,0 +1,133 @@
+$color_1: #1FA7EF;
+$color_2: rgba(177, 146, 42, 0.683);
+$color_3: rgb(201, 199, 199);
+$color_4: rgb(126, 126, 214);
+$color_5: rgb(133, 214, 214);
+$color_6: rgb(222, 232, 234);
+$color_7: rgb(69, 36, 53);
+$color_8: rgb(159, 36, 61);
+$font-family_1: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+$font-family_2: Verdana, Geneva, Tahoma, sans-serif;
+$font-family_3: 'Ubuntu', sans-serif;
+$background-color_1: #222222;
+$background-color_2: #0D0D0D;
+$background-color_3: inherit;
+$background-color_4: #6a5555;
+$background-color_5: #7b6a6a;
+
+@import "https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap";
+* {
+	margin: 0;
+}
+.footer {
+	background-color: $background-color_1;
+	font-family: $font-family_1;
+}
+.footer-wrap {
+	padding: 35px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 0px;
+}
+.notice {
+	font-family: $font-family_2;
+	font-size: 14px;
+	border-radius: 11px;
+	width: 300px;
+	padding: 10px;
+	border: 1.25px solid rgb(88, 86, 86);
+}
+.text {
+	width: 550px;
+	color: $color_3;
+}
+#logo {
+	color: $color_1;
+	cursor: text;
+}
+h3 {
+	color: $color_1;
+	font-family: $font-family_3;
+}
+p {
+	color: $color_2;
+}
+.bottom {
+	color: $color_3;
+}
+.footer-bottom {
+	padding: 10px;
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: $background-color_2;
+}
+.social {
+	color: $color_3;
+	padding-right: 10px;
+	background-color: $background-color_3;
+}
+.ul-footer{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 10px;
+	padding-left: 70px;
+
+}
+ul {
+	display: flex;
+	gap: 10px;
+	background-color: $background-color_3;
+	align-items: center;
+}
+.footer-list{
+	padding-bottom: 25px;
+}
+svg {
+	cursor: pointer;
+}
+a{
+	color: $color_4;
+	font-size: 15px;
+	margin-top: 10px;
+    text-decoration: underline;
+	&:hover {
+		color: $color_5;
+		text-decoration: none;
+	}
+	&.active{
+		color: $color_8;
+		text-decoration: none;
+	}
+}
+.info-list {
+	display: flex;
+	padding-left: 250px;
+	gap: 10px;
+	padding-bottom: 35px;
+}
+#back {
+	color: $color_6;
+	background-color: $background-color_4;
+	text-align: center;
+	font-size: 17px;
+	font-family: $font-family_3;
+	padding: 8px;
+	cursor: pointer;
+	&:hover {
+		color: $color_7;
+		background-color: $background-color_5;
+	}
+}
+.Note{
+	text-transform: uppercase;
+	color: $color_8;
+	font-size: 15px;
+}
+.Thank{
+	color: #1FA7EF;
+	font-size: 14px;
+}

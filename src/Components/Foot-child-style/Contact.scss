@@ -1,0 +1,48 @@
+
+.contact{
+    display: flex;
+    justify-content: center;
+    .contact_wrapper{
+        box-sizing: border-box;
+        background-color: rgb(200, 199, 197);
+        margin: 60px 40px 100px 40px;
+        border-radius: 30px;
+        width: fit-content;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        .contact_heading{
+            font-weight: 500;
+            font-size: 30px;
+            padding-top: 10px;
+        }
+        .contact_text{
+            color: black;
+            margin: 10px 0 10px 20px;
+            padding: 0 15px 0 15px;
+        }
+        .contact_heading{
+            margin: 20px;
+        }
+        .contact_input_field{
+            margin: 20px 40px 10px 40px; 
+        }
+        .contact-input{
+            padding: 5px;
+            margin-top: 5px;
+            width: 210px;
+        }
+        .btn-send{
+            color: white;
+            background-color: rgb(0, 115, 255);
+            margin: 10px 0 30px ;
+            width: 90px;
+            height: 35px;
+            cursor: pointer;
+            border-radius: 20px;
+            border-color: rgb(211, 211, 214) ;
+            &:hover{
+                background-color:  rgb(17, 77, 150);
+            }
+        }
+    }
+    
+}

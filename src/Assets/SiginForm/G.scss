@@ -1,0 +1,13 @@
+
+.btncolor{
+    display: flex;
+    justify-content: flex-end;
+    .change-col{
+        background-color: rgb(3, 61, 111);
+        color: rgb(139, 145, 30);
+        cursor: pointer;
+        font-size: 11px;
+        padding: 2px;
+        border-radius: 4px;
+    }
+}

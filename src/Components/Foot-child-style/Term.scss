@@ -1,0 +1,20 @@
+.information_page-wrap{
+    margin: 20px 10px 25px 10px;
+    box-sizing: border-box;
+    background-color: rgb(192, 172, 147);
+    border-radius: 1.5%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    .article-infor{
+        margin: 20px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        .h4-heading{
+            margin-top: 20px;
+        }
+        .Term-text{
+            margin-top: 10px;
+            color: rgb(65, 51, 51);
+        }
+    }
+    
+}
